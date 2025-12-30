@@ -2,7 +2,7 @@
 
 Sistema de gestão financeira pessoal completo com integração de IA.
 
-## 🚀 Tecnologias
+## Tecnologias
 
 - React 18+ com TypeScript
 - Vite
@@ -15,13 +15,13 @@ Sistema de gestão financeira pessoal completo com integração de IA.
 - Zustand (para gerenciamento de estado)
 - React Toastify
 
-## 📦 Instalação
+##  Instalação
 
 ```bash
 npm install
 ```
 
-## 🏃 Executar
+##  Executar
 
 ```bash
 npm run dev
@@ -29,7 +29,7 @@ npm run dev
 
 A aplicação estará disponível em `http://localhost:3000`
 
-## 🔧 Configuração
+##  Configuração
 
 ### Backend
 
@@ -43,7 +43,7 @@ As configurações estão em `src/utils/constants.ts`. Para alterar a URL da API
 export const API_BASE_URL = 'http://localhost:8080';
 ```
 
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 src/
@@ -59,7 +59,7 @@ src/
 └── App.tsx          # Componente principal com rotas
 ```
 
-## 🔐 Autenticação
+##  Autenticação
 
 O sistema utiliza JWT para autenticação. O token é armazenado no `localStorage` e enviado automaticamente em todas as requisições.
 
@@ -68,7 +68,7 @@ O sistema utiliza JWT para autenticação. O token é armazenado no `localStorag
 - **Email:** admin@teste.com
 - **Senha:** 123
 
-## 📝 Funcionalidades
+##  Funcionalidades
 
 ### Autenticação
 - Login
@@ -111,25 +111,25 @@ O sistema utiliza JWT para autenticação. O token é armazenado no `localStorag
 - Gráficos (receitas vs despesas, distribuição por categoria)
 - Movimentações recentes
 
-## 🎨 Styling
+##  Styling
 
 O projeto utiliza Tailwind CSS para estilização. Os estilos customizados estão em `src/index.css`.
 
-## 🔄 Fluxos Principais
+##  Fluxos Principais
 
 1. **Autenticação:** Login → Dashboard
 2. **Cadastro de Movimentação:** Seleciona conta → Preenche dados → Salva
 3. **Criação de Meta:** Preenche dados → Opcional: Análise IA → Salva
 4. **Chat IA:** Seleciona conta (opcional) → Envia pergunta → Recebe resposta
 
-## ⚠️ Importante
+##  Importante
 
 - Todas as datas devem estar no formato `YYYY-MM-DD`
 - Valores monetários são formatados em BRL (R$)
 - Timeout de 60s para requisições de IA
 - Token JWT expira após determinado tempo (configurado no backend)
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Erro de CORS
 Verifique se o backend está configurado para aceitar requisições de `http://localhost:3000`
@@ -140,7 +140,7 @@ O sistema redireciona automaticamente para login quando o token expira
 ### IA Indisponível
 Verifique se o serviço de IA (Ollama/OpenAI) está configurado e rodando no backend
 
-## 📄 Licença
+##  Licença
 
 Este projeto faz parte do sistema Assistente Financeiro.
 
