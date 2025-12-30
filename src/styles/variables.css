@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #1a414b;
+  --color-secondary: #4092a7;
+
+  --white: #fff;
+
+  --color-primary-opacity: rgba(64, 146, 167, 0.25);
+  --color-secondary-opacity: rgba(30, 178, 216, 0.25);
+
+  --box-shadow-button: 0 4px 12px rgba(0, 0, 0, 0.3);
+
+  --trasitions-buttons: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}

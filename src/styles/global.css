@@ -1,0 +1,15 @@
+.fontcolorprimary {
+  color: var(--color-primary);
+}
+
+.fontcolorsecondary {
+  color: var(--color-secondary);
+}
+
+.bordersecondary {
+  border-color: var(--color-secondary);
+}
+
+.borderprimary {
+  border-color: var(--color-primary);
+}
